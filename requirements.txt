@@ -1,0 +1,10 @@
+gradio
+cohere
+openai
+whisper
+langchain
+torch
+accelerate
+bitsandbytes
+transformers
+huggingface_hub
