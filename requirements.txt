@@ -1,10 +1,7 @@
-gradio
-cohere
-openai
-whisper
-langchain
-torch
-accelerate
-bitsandbytes
-transformers
-huggingface_hub
+!pip install gradio
+!pip install cohere -q
+!pip install openai -q
+!pip install git+https://github.com/openai/whisper.git -q
+!pip install git+https://github.com/openai/whisper.git --use-deprecated=legacy-resolver -q
+!sudo apt update && sudo apt install ffmpeg -q
+!pip install langchain torch accelerate bitsandbytes transformers
